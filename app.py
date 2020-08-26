@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-import jsonify
 import requests
 import joblib
 import numpy as np
@@ -14,6 +13,7 @@ def Home():
     return render_template('index.html')
 
 standard_to = StandardScaler()
+
 @app.route('/predict', methods=['POST'])
 def predict():
     Fuel_Type_Diesel = 0
