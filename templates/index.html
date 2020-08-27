@@ -7,6 +7,7 @@
         <title>Car Value Prediction</title>
         <link rel="stylesheet" type="text/css" href="../static/style.css">
         <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
         <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
     </head>
 
@@ -78,5 +79,12 @@
             <p class='footer-description'>Made by Varun.</p>
         </div>
 
+        <script> 
+            $(document).ready(function() { 
+                $("button").click(function() { 
+                    $(document).scrollTop($(document).height()); 
+                }); 
+            }); 
+        </script> 
     </body>
 </html>
