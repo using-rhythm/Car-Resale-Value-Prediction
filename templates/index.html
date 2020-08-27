@@ -20,7 +20,7 @@
     			<p>Fill out the following attributes to get the current value of your Car</p>
     		</div>
     	</div>
-
+        <h3 id='output'>{{ prediction_text }}</h3>
         <!-- File Input -->
     	<div class="ml-container">
     		<form action="{{ url_for('predict')}}" method="post">
@@ -71,18 +71,13 @@
                 <br><br>
                 <button id="sub" type="submit" class="my-cta-button">Calculate the Selling Price</button>
                 <br>
-        	</form>
+            </form>
+            
     	</div>
-        <br><br><h3 id='output'>{{ prediction_text }}</h3><br>
         <!-- Footer -->
         <div class='footer'>
             <p class='footer-description'>Made by Varun.</p>
         </div>
 
-        <script> 
-            if($('#output').innerText.length()!=0){
-                $(document).scrollTop($(document).height()); 
-            }
-        </script> 
     </body>
 </html>
