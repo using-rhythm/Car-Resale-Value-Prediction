@@ -19,10 +19,10 @@ def predict():
     Fuel_Type_Diesel = 0
     if request.method == 'POST':
         Year = int(request.form['Year'])
-        Current_Price = float(request.form['Current Price'])
-        Dist_Driven = np.log(int(request.form['Dist_driven']))
+        Current_Price = float(request.form['Current_Price'])
+        Dist_Driven = np.log(int(request.form['Dist_Driven']))
         Owner = int(request.form['Owner'])
-        Fuel_Type_Petrol = request.form(['Fuel_Type_Petrol'])
+        Fuel_Type_Petrol = request.form['Fuel_Type_Petrol']
         if(Fuel_Type_Petrol=='Petrol'):
             Fuel_Type_Petrol=1
         else:
@@ -48,7 +48,7 @@ def predict():
         if(output<0):
             return render_template('index.html',prediction_text="Sorry, You cannot sell this car")
         else:
-            return render_template('index.html',prediction_text="You Can Sell The Car at {}".format(output))
+            return render_template('index.html',prediction_text="The current value of the car is {} lakhs.".format(output))
     else:
         return render_template('index.html')
 
