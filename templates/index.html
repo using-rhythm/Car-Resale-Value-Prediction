@@ -20,7 +20,7 @@
     			<p>Fill out the following attributes to get the current value of your Car</p>
     		</div>
     	</div>
-        <h3 id='output'>{{ prediction_text }}</h3>
+        <h3 style="font-style: italic;">{{ prediction_text }}</h3>
         <!-- File Input -->
     	<div class="ml-container">
     		<form action="{{ url_for('predict')}}" method="post">
@@ -67,10 +67,8 @@
                         <option value="Mannual">Manual Car</option>
                         <option value="Automatic">Automatic Car</option>
                     </select>
-                </div>
-                <br><br>
+                </div><br>
                 <button id="sub" type="submit" class="my-cta-button">Calculate the Selling Price</button>
-                <br>
             </form>
             
     	</div>
