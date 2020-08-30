@@ -14,10 +14,10 @@ The dataset is taken from kaggle. This dataset contains information about used c
 
 <a href="https://carvaluepred.herokuapp.com/">Car Value Prediction</a>
 
-### A glimpse of the Web App
-<br>
+  ### Glimpse of the Web App
+  <br>
 
-![GIF](carvaluepred.gif)
+  ![GIF](carvaluepred.gif)
 
 ## Important Attributes
 
