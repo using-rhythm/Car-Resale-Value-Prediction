@@ -1,6 +1,6 @@
 # Car-Value-Prediction
 
-![Python 3.6](https://img.shields.io/badge/Pyhton-3.7-blue)![Flask](https://img.shields.io/badge/Flask-1.1-orange)![Flask](https://img.shields.io/badge/Heroku-Deployment-brightgreen)
+![Python 3.7](https://img.shields.io/badge/Pyhton-3.7-blue) ![Flask](https://img.shields.io/badge/Flask-1.1-orange) ![Heroku](https://img.shields.io/badge/Heroku-Deployment-brightgreen)
 
 ## Objective
 
@@ -13,6 +13,10 @@ The dataset is taken from kaggle. This dataset contains information about used c
 ## Live Demo
 
 <a href="https://carvaluepred.herokuapp.com/">Car Value Prediction</a>
+
+### A glimpse of the Web App
+
+![GIF](readme_resources/carpred.gif)
 
 ## Important Attributes
 
