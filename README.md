@@ -17,7 +17,7 @@ The dataset is taken from kaggle. This dataset contains information about used c
 ### A glimpse of the Web App
 <br>
 
-![GIF](carpred.gif)
+![GIF](carvaluepred.gif)
 
 ## Important Attributes
 
